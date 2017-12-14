@@ -1,0 +1,21 @@
+{
+  "name": "hivedeck",
+  "version": "1.0.0",
+  "bin": "./HiveDeck.js",
+  "dependencies": {
+    "elgato-stream-deck": "^2.0.0",
+    "node-hid": "^0.5.7",
+    "osc-min": "^1.1.1",
+    "sharp": "^0.18.4"
+  },
+  "description": "hivedeck",
+  "main": "HiveDeck.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "",
+  "pkg": {
+    "assets": "images/*/*"
+  }
+}
